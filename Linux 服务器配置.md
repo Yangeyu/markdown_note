@@ -195,7 +195,7 @@
    sudo cp /etc/bind/db.local db.mytest.com
    ```
 
-   ​		![image-20200630202218049](C:\Users\Yang\AppData\Roaming\Typora\typora-user-images\image-20200630202218049.png)
+   ​		![image-20200701115039721](D:\Repositories\markdown_note\images\image-20200701115039721.png)
 
 4. 在/var/cache/bind/reverse下建立db.132.168.192文件
 
@@ -203,7 +203,7 @@
    sudo cp /etc/bind/db.127 db.132.168.192
    ```
 
-   ![image-20200630202400781](C:\Users\Yang\AppData\Roaming\Typora\typora-user-images\image-20200630202400781.png)
+   ![image-20200701115104709](D:\Repositories\markdown_note\images\image-20200701115104709.png)
 
 5. 重启DNS服务
 
