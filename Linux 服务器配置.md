@@ -59,7 +59,7 @@
 2. 创建目录
 
    ```
-   sudo mkdir -p /myshare
+   sudo mkdir -p /mnt/myshare
    ```
 
 3. 使任何客户端可访问
@@ -195,7 +195,7 @@
    sudo cp /etc/bind/db.local db.mytest.com
    ```
 
-   ​		![image-20200701115039721](D:\Repositories\markdown_note\images\image-20200701115039721.png)
+   ​		![image-20200701115039721](images\image-20200701115039721.png)
 
 4. 在/var/cache/bind/reverse下建立db.132.168.192文件
 
@@ -203,7 +203,7 @@
    sudo cp /etc/bind/db.127 db.132.168.192
    ```
 
-   ![image-20200701115104709](D:\Repositories\markdown_note\images\image-20200701115104709.png)
+   ![image-20200701115104709](images\image-20200701115104709.png)
 
 5. 重启DNS服务
 
