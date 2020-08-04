@@ -162,6 +162,10 @@
    sudo /etc/init.d/vsftpd restart
    ```
 
+7. ps:[ftp配置](https://www.cnblogs.com/dupengcheng/p/6790143.html)
+
+   
+
 ### DNS服务
 
 1. 安装bind9
@@ -195,7 +199,7 @@
    sudo cp /etc/bind/db.local db.mytest.com
    ```
 
-   ​		![image-20200701115039721](images\image-20200701115039721.png)
+   ​		![image-20200701115039721](https://github.com/Yangeyu/markdown_note/blob/master/images/image-20200701115039721.png?raw=true)
 
 4. 在/var/cache/bind/reverse下建立db.132.168.192文件
 
@@ -203,7 +207,7 @@
    sudo cp /etc/bind/db.127 db.132.168.192
    ```
 
-   ![image-20200701115104709](images\image-20200701115104709.png)
+   ![image-20200701115104709](https://github.com/Yangeyu/markdown_note/blob/master/images/image-20200701115104709.png?raw=true)
 
 5. 重启DNS服务
 
