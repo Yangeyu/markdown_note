@@ -8,7 +8,7 @@ import time
 
 # type = sys.stdout.encoding
 
-path = "D:\\Repositories\\markdown_note\\test"
+path = "D:\\Repositories\\markdown_note"
 
 files = [os.path.join(path,item) for item in os.listdir(path)]
 # print(files)
@@ -26,7 +26,7 @@ for file in files:
 		line = f1.readline()
 		while line:
 			# print(line)
-			pattern = r'!\[.*\]\(images.*\)'
+			pattern = r'.*?!\[.*\]\(images.*\)'
 			com = re.compile(pattern)
 			s = com.match(line)
 
@@ -36,7 +36,6 @@ for file in files:
 				+ sp[2] + "?raw=true)\n"
 			f2.write(line)
 
-			# print(s[0].encode('gbk').decode(type))
 			line = f1.readline()
 
 	os.system("del /F /S /Q %s" % file)
