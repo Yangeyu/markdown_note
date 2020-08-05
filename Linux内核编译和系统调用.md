@@ -72,7 +72,7 @@
    335	64	pro_name	sys_pro_name
    ```
 
-   ![image-20200702011552096](D:\Repositories\markdown_note\images\image-20200702011552096.png)
+   ![image-20200702011552096](https://github.com/Yangeyu/markdown_note/blob/master/images/image-20200702011552096.png?raw=true)
 
    
 
